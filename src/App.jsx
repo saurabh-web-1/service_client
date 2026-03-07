@@ -7,7 +7,7 @@ import PricingSection from './components/PricingSection';
 import ProjectCarousel from './components/ProjectCarousel';
 import ContactPage from './components/ContactPage';
 import Footer from './components/Footer';
-
+import FloatingContact from "./components/FloatingContact";
 
 
 
@@ -23,6 +23,9 @@ function App() {
     <ProjectCarousel />
     <ContactPage/>
     <Footer/>
+
+      <FloatingContact />
+
 
     </>
   )
