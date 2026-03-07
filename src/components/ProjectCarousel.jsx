@@ -12,7 +12,7 @@ const ProjectCarousel = () => {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const res = await axios.get("http://localhost:3000/workHistory");
+        const res = await axios.get("https://service-server-sooty.vercel.app/workHistory");
         setProjects(res.data.data);
       } catch (error) {
         console.log(error);

@@ -29,7 +29,7 @@ const ContactPage = () => {
       setLoading(true)
 
       const res = await axios.post(
-        "http://localhost:3000/contact",
+        "https://service-server-sooty.vercel.app/contact",
         formData
       )
 
