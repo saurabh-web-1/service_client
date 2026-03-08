@@ -10,9 +10,10 @@ const ProjectCarousel = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
+    const API = import.meta.env.VITE_API_URL
     const fetchProjects = async () => {
       try {
-        const res = await axios.get("https://service-server-sooty.vercel.app/workHistory");
+        const res = await axios.get(`${API}/workHistory`);
         setProjects(res.data.data);
       } catch (error) {
         console.log(error);
@@ -73,6 +74,7 @@ const ProjectCarousel = () => {
                   {/* Image */}
                  <div className="w-full max-w-[1000px] aspect-[16/10] overflow-hidden rounded-3xl">
   <img
+    loading="lazy"
     src={project.ImageURL[0]}
     alt={project.projectName}
     className="w-full h-full object-cover transition duration-700 group-hover:scale-105"

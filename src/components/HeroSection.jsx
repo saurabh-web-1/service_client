@@ -38,6 +38,7 @@ const HeroSection = () => {
             }}
           >
             <img
+              loading="lazy"
               src={heroMain}
               alt="Main Dashboard"
               className="w-full drop-shadow-2xl rounded-xl"
@@ -59,6 +60,7 @@ const HeroSection = () => {
             }}
           >
             <img
+             loading="lazy"
               src={heroSmall}
               alt="Floating UI"
               className="w-full drop-shadow-2xl rounded-xl"

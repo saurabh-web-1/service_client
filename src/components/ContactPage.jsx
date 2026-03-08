@@ -4,6 +4,7 @@ import contactImg from "../assets/contact.svg";
 
 const ContactPage = () => {
 
+
   const [formData, setFormData] = useState({
     name:"",
     email:"",
@@ -26,10 +27,12 @@ const ContactPage = () => {
 
     try{
 
+     const API = import.meta.env.VITE_API_URL
+
       setLoading(true)
 
       const res = await axios.post(
-        "https://service-server-sooty.vercel.app/contact",
+        `${API}/contact`,
         formData
       )
 
