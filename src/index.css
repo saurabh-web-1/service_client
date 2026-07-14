@@ -175,3 +175,10 @@
 html {
   scroll-behavior: smooth;
 }
+
+
+@media(max-width:768px){
+  #benefits{
+    margin-top: 0;
+  }
+}

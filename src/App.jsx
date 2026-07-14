@@ -1,34 +1,38 @@
-import { useState } from 'react'
-import HeroSection from "./components/HeroSection";
-import BenefitsSection from "./components/BenefitsSection";
-import AboutSection from "./components/AboutSection";
-import ServicesSection from "./components/ServicesSection";
-import PricingSection from './components/PricingSection';
-import ProjectCarousel from './components/ProjectCarousel';
-import ContactPage from './components/ContactPage';
-import Footer from './components/Footer';
-import FloatingContact from "./components/FloatingContact";
-
-
-
-function App() {
-
-  return (
-    <>
-    <HeroSection />
-    <BenefitsSection />
-    <AboutSection />
-    <ServicesSection />
-    <PricingSection/>
-    <ProjectCarousel />
-    <ContactPage/>
-    <Footer/>
-
+import "./app.css"
+import Navbar from "./component/navbar"
+import HeroScetion from "./component/HeroSection"
+import BenefitsSection from "./component/BenefitsSection"
+import AboutSection from "./component/AboutSection"
+import ServicesSection from "./component/ServicesSection"
+import PricingSection from "./component/PricingSection"
+import ProjectCarousel from "./component/ProjectCarousel"
+import ContactPage from "./component/ContactPage"
+import Footer from "./component/Footer"
+import FloatingContact from "./component/FloatingContact"
+import ReviewSection from "./component/ReviewSection"
+import FAQSection from "./component/FAQSection"
+import ContactPopup from "./component/ContactPopup"
+function app(){
+  return(
+      <>
+      <div  id="home" className="hero-section-container">
+        <Navbar />
+        <ContactPopup />
+        <HeroScetion />
+      </div>
+              <BenefitsSection />
+        <AboutSection />
+        <ServicesSection />
+        <PricingSection/>
+        < ProjectCarousel />
+          <ReviewSection />
+           <FAQSection />
+       <ContactPage/>
+       <Footer/>
       <FloatingContact />
-
-
-    </>
+  
+      </>
   )
 }
 
-export default App
+export default app;

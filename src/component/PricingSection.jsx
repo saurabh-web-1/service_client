@@ -2,8 +2,20 @@ import standardImg from "../assets/Standard Plan.webp";
 import premiumImg from "../assets/Premium Plan.webp";
 import customImg from "../assets/business plan.webp";
 import { FaCheck } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 const PricingSection = () => {
+  const whatsapp = "919311868909";
+
+const standardMessage = encodeURIComponent(
+  "Hello InfiWeb Studio, I'm interested in the Standard Plan (₹4,999). Please share complete details."
+);
+const premiumMessage = encodeURIComponent(
+  "Hello InfiWeb Studio, I'm interested in the Premium Plan (₹8,999). Please share complete details."
+);
+const customMessage = encodeURIComponent(
+  "Hello InfiWeb Studio, I'm interested in the Custom Plan. Please contact me with complete details."
+);
   return (
     <section className="bg-gray-100 py-24" id="pricing">
       <div className="container mx-auto px-6 md:px-12">
@@ -37,26 +49,44 @@ const PricingSection = () => {
             </div>
 
             <ul className="space-y-3 text-gray-700 text-sm mt-6">
-              <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> 5 Pages Website</li>
+              <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Up to 5 Pages Website</li>
               <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> 1 Year Hosting</li>
               <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Dynamic Website ( Premium Design )</li>
-              <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Admin Access</li>
               <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Lifetime 24/7 Free Hosting Support</li>
               <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Unlimited Images & Videos Upload</li>
+              <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> WhatsApp Chat Button</li>
+              <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Contact Form</li>
               <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Free SSL Certificates</li>
               <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> SEO Friendly Website</li>
-              <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Payment Gateway Integration</li>
+                
+
+              <h4 className="text-lg font-semibold mt-8 mb-4"> Technologies Used</h4>
               
+ 
+
+<div className="flex flex-wrap gap-2">
+  <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">Html</span>
+  <span className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">JavaScript</span>
+  <span className="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-sm">css</span>
+  <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm">PHP</span>
+  <span className="px-3 py-1 bg-cyan-100 text-cyan-700 rounded-full text-sm">MySQL</span>
+</div>
+             
               
             </ul>
 
             <div className="text-center mt-8">
-              <a href="tel:+919311868909">
-              <button className="bg-orange-400 px-7 py-2.5 rounded-lg font-semibold hover:bg-orange-500 transition">
-                Call Now
-              </button>
-              </a>
-            </div>
+  <a
+    href={`https://wa.me/${whatsapp}?text=${standardMessage}`}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <button className="flex items-center justify-center gap-2 w-full bg-yellow-400 text-white px-7 py-3 rounded-lg font-semibold hover:bg-green-600 transition">
+      <FaWhatsapp size={22} />
+      Message Now
+    </button>
+  </a>
+</div>
           </div>
 
           {/* PREMIUM PLAN */}
@@ -75,7 +105,7 @@ const PricingSection = () => {
             </div>
 
             <ul className="space-y-3 text-sm mt-6">
-              <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> 12 Pages Website</li>
+              <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Up to10 Pages Website</li>
               <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> 1 Year Hosting</li>
               <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Dynamic Website ( Premium Design )</li>
               <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Admin Access</li>
@@ -84,19 +114,36 @@ const PricingSection = () => {
               <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Free SSL Certificates</li>
               <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> SEO Friendly Website</li>
               <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Payment Gateway Integration</li>
-              <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Live Chat Integration</li>
+              <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Contact Form</li>
                <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Social Media Integration</li>
                 <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Call Button Integration</li>
+                
+<h4 className="text-lg font-semibold mt-8 mb-4">
+  Technologies Used
+</h4>
 
+<div className="flex flex-wrap gap-2">
+  <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">React.js</span>
+  <span className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">Node.js</span>
+  <span className="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-sm">Express.js</span>
+  <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm">MongoDB</span>
+  <span className="px-3 py-1 bg-cyan-100 text-cyan-700 rounded-full text-sm">Tailwind CSS</span>
+  <span className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm">REST API</span>
+</div>
             </ul>
 
             <div className="text-center mt-8">
-              <a href="tel:+919311868909">
-              <button className="bg-orange-400 text-black px-7 py-2.5 rounded-lg font-semibold hover:bg-orange-500 transition">
-                Call Now
-              </button>
-              </a>
-            </div>
+  <a
+    href={`https://wa.me/${whatsapp}?text=${premiumMessage}`}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <button className="flex items-center justify-center gap-2 w-full bg-yellow-400 text-white px-7 py-3 rounded-lg font-semibold hover:bg-green-600 transition">
+      <FaWhatsapp size={22} />
+      Message Now
+    </button>
+  </a>
+</div>
           </div>
 
           {/* CUSTOM PLAN */}
@@ -109,14 +156,14 @@ const PricingSection = () => {
               <img src={customImg} alt="Custom Plan" className="mx-auto h-56 mt-6 object-contain" />
             </div>
 
-           
+          
             <div className="text-center mb-6">
-              <p className="line-through text-gray-200 text-lg">₹ 25,000</p>
-              <h3 className="text-3xl font-bold text-yellow-300 mt-1">₹ 10,999</h3>
+              <p className="line-through text-gray-400 text-lg">₹ 25,000</p>
+              <h3 className="text-3xl font-bold text-blue-700 mt-1">₹ 10,000</h3>
             </div>
 
             <ul className="space-y-3 text-gray-700 text-sm mt-6">
-            <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> 12 Pages Website</li>
+            <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Unlimited Pages Website</li>
               <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> 1 Year Hosting</li>
               <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Dynamic Website ( Premium Design )</li>
               <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Admin Access</li>
@@ -130,17 +177,36 @@ const PricingSection = () => {
                 <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Call Button Integration</li>
                 <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> WhatsApp Button Integration</li>
                 <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Inquiry Form</li>
+                                <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Google Analytics Integration</li>
+
                 <li className="flex gap-3"><FaCheck className="text-blue-600 mt-1" /> Woocommece Features</li>
+                <h4 className="text-lg font-semibold mt-8 mb-4">
+  Technologies Used
+</h4>
+
+<div className="flex flex-wrap gap-2">
+  <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">React.js</span>
+  <span className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">Node.js</span>
+  <span className="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-sm">Express.js</span>
+  <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm">MongoDB</span>
+  <span className="px-3 py-1 bg-cyan-100 text-cyan-700 rounded-full text-sm">Tailwind CSS</span>
+  <span className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm">REST API</span>
+</div>
                 
             </ul>
 
             <div className="text-center mt-8">
-              <a href="tel:+919311868909">
-              <button className="bg-orange-400 px-7 py-2.5 rounded-lg font-semibold hover:bg-orange-500 transition">
-                Call Now
-              </button>
-              </a>
-            </div>
+  <a
+    href={`https://wa.me/${whatsapp}?text=${customMessage}`}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <button className="flex items-center justify-center gap-2 w-full bg-yellow-400 text-white px-7 py-3 rounded-lg font-semibold hover:bg-green-600 transition">
+      <FaWhatsapp size={22} />
+      Message Now
+    </button>
+  </a>
+</div>
           </div>
 
         </div>

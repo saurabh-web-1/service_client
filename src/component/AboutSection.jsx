@@ -23,20 +23,21 @@ const AboutSection = () => {
           <div className="w-full md:w-1/2 space-y-6">
 
             <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider">
-              Define Us!
+              About InfiWeb Studio
             </p>
 
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
-              Welcome to Flown Developer –
+               Building Powerful Digital
               <br />
-              A Top Web Development Company in India
+              Experiences for Modern Businesses
             </h2>
 
             <p className="text-gray-600 leading-relaxed text-base md:text-lg">
-              100% Trusted and Registered Company in India with a professional
-              website that provides the best web development and web design
-              services in India. We offer multi-functional web portals and
-              ensure strong ROI-driven results.
+               <strong>InfiWeb Studio</strong> is a leading website development agency in
+               India specializing in modern, responsive, and high-performance web
+               solutions. We help startups, small businesses, and enterprises establish a
+               strong digital presence through custom websites, web applications, and
+               e-commerce platforms built with the latest technologies.
             </p>
 
             {/* READ MORE BUTTON */}
@@ -57,19 +58,29 @@ const AboutSection = () => {
               }`}
             >
               <p className="text-gray-600 leading-relaxed text-base md:text-lg mb-4">
-                Flown Developer is among the top web design and web development
-                companies in India. Our experts deliver high-quality websites
-                that are user-friendly, SEO-optimized, and visually appealing.
-                We have successfully served 100+ clients across various
-                industries.
+                At <strong>InfiWeb Studio</strong>, we believe every business deserves a
+  professional online identity. Our team designs visually stunning,
+  SEO-friendly, secure, and lightning-fast websites that deliver exceptional
+  user experiences across all devices. From business websites and portfolio
+  websites to custom web applications and large-scale e-commerce solutions, we
+  build products that help businesses grow.
               </p>
 
               <p className="text-gray-600 leading-relaxed text-base md:text-lg">
-                Our professional team ensures fast-loading, secure, and
-                responsive websites compatible with modern tools and
-                technologies. We help businesses build a powerful online
-                presence with affordable and result-oriented web solutions.
+                O Our expertise includes <strong>React.js</strong>, <strong>Node.js</strong>,
+  <strong>Express.js</strong>, <strong>MongoDB</strong>,
+  <strong> Tailwind CSS</strong>, REST APIs, authentication systems, payment
+  gateway integration, admin dashboards, and cloud deployment. Every project
+  is developed with scalability, security, and performance in mind.
               </p>
+              <p className="text-gray-600 leading-relaxed text-base md:text-lg">
+  We focus on delivering high-quality digital solutions that not only look
+  modern but also generate real business results. Whether you need a company
+  website, a custom business portal, an e-commerce platform, or a complete web
+  application, InfiWeb Studio is committed to transforming your ideas into
+  powerful digital experiences with reliable support and long-term
+  maintenance.
+</p>
             </div>
 
           </div>
