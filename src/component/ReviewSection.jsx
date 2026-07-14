@@ -2,8 +2,8 @@ import { FaStar } from "react-icons/fa";
 
 const testimonials = [
   {
-    name: "Rahul Sharma",
-    company: "RK Enterprises",
+    name: "Ronak Kareliya",
+    company: "Athelio Sports Management",
     review:
       "InfiWeb Studio delivered our business website before deadline. The design is modern and the support is excellent.",
   },
@@ -15,7 +15,7 @@ const testimonials = [
   },
   {
     name: "Amit Verma",
-    company: "AV Travels",
+    company: "Dream Weaver Wravels",
     review:
       "Amazing experience. Fast website, premium UI and great communication throughout the project.",
   },

@@ -3,29 +3,54 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    question: "How long does it take to build a website?",
+    question: "How long does it take to complete a website?",
     answer:
-      "Most business websites are completed within 5-10 working days depending on requirements.",
+      "Most business websites are completed within 5–10 working days. Larger custom projects may require additional time depending on the features and requirements.",
   },
   {
-    question: "Do you provide hosting and domain?",
+    question: "Is domain included with the website?",
     answer:
-      "Yes. We provide domain registration, hosting, SSL certificate and complete setup.",
+      "No. The domain name is purchased separately by the client. We can help you choose and register the best domain for your business.",
+  },
+  {
+    question: "Do you provide free hosting?",
+    answer:
+      "Yes. Every website includes 1 Year Free Premium Hosting. After one year, hosting can be renewed at the applicable renewal cost.",
+  },
+  {
+    question: "Do you set up Google Search Console?",
+    answer:
+      "Yes. We connect your website with Google Search Console, verify ownership, submit your XML sitemap, and configure it for better search engine indexing.",
+  },
+  {
+    question: "Will my website be SEO friendly?",
+    answer:
+      "Yes. Every website is developed with SEO best practices including optimized URLs, meta tags, sitemap, robots.txt, responsive design, and fast loading speed.",
+  },
+  {
+    question: "Do you provide website maintenance?",
+    answer:
+      "Yes. We provide 1 Year Free Website Maintenance, including bug fixes, security updates, technical support, and minor content changes.",
   },
   {
     question: "Will my website work on mobile devices?",
     answer:
-      "Yes. Every website is fully responsive and works perfectly on mobile, tablet and desktop.",
+      "Absolutely. Every website is fully responsive and optimized for mobile phones, tablets, laptops, and desktop devices.",
   },
   {
-    question: "Do you provide SEO?",
+    question: "Can I update my website in the future?",
     answer:
-      "Yes. Every website is built with basic SEO optimization and fast loading performance.",
+      "Yes. Your website can be upgraded anytime. We also provide additional features and future enhancements based on your business needs.",
   },
   {
-    question: "Do you provide maintenance after delivery?",
+    question: "What technologies do you use?",
     answer:
-      "Yes. We provide technical support, maintenance and future upgrades.",
+      "Depending on the project, we use HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB, PHP, MySQL, and Tailwind CSS to build secure and scalable websites.",
+  },
+  {
+    question: "How can I get started?",
+    answer:
+      "Simply contact us through WhatsApp, phone, or the contact form. We'll discuss your requirements, provide a quotation, and begin your project after confirmation.",
   },
 ];
 

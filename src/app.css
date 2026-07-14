@@ -1,14 +1,14 @@
 .hero-section-container{
-    width: 100vw;
-    height: 100vh;
-    padding-top: clamp(100px, 10vh, 140px);
-    background: linear-gradient(90deg,#2563EB 0%,#4F46E5 40%,#6D28D9 70%, #7E22CE 100%);
+    width:100%;
+    min-height:100vh;
+    box-sizing:border-box;
+    padding-top:160px;
+    background:linear-gradient(90deg,#2563EB 0%,#4F46E5 40%,#6D28D9 70%,#7E22CE 100%);
+    overflow:hidden;
 }
 
-@media(max-width:992px){
+@media (max-width:768px){
     .hero-section-container{
-    width: 100%s;
-    height: 100%;
-
-}
+        padding-top:80px;
+    }
 }

@@ -37,7 +37,7 @@ function HeroScetion() {
             </span>
 
             <span className="hero-line">
-              Experiences in India
+              Experiences 
             </span>
 
           </h1>
