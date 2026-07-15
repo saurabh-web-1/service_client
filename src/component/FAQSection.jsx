@@ -5,7 +5,7 @@ const faqs = [
   {
     question: "How long does it take to complete a website?",
     answer:
-      "Most business websites are completed within 5–10 working days. Larger custom projects may require additional time depending on the features and requirements.",
+      "Most business websites are completed within 2–4 working days. Larger custom projects may require additional time depending on the features and requirements.",
   },
   {
     question: "Is domain included with the website?",
@@ -30,7 +30,7 @@ const faqs = [
   {
     question: "Do you provide website maintenance?",
     answer:
-      "Yes. We provide 1 Year Free Website Maintenance, including bug fixes, security updates, technical support, and minor content changes.",
+      "Yes. We provide 1 Year Free Website Maintenance, including bug fixes, security updates, and technical support.",
   },
   {
     question: "Will my website work on mobile devices?",

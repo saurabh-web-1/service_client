@@ -54,7 +54,7 @@ function Navbar() {
           <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
           
 
-         <a href="tel:+919311868909" className="call-btn">
+         <a href="tel:+919625148552" className="call-btn">
             <Phone size={20} strokeWidth={2.5} />
              <span>Call Now</span>
           </a>
