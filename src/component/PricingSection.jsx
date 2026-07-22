@@ -45,7 +45,7 @@ const customMessage = encodeURIComponent(
 
             <div className="text-center mb-6">
               <p className="line-through text-gray-400 text-lg">₹ 10,000</p>
-              <h3 className="text-3xl font-bold text-blue-700 mt-1">₹ 4,999</h3>
+              <h3 className="text-3xl font-bold text-blue-700 mt-1">₹ 6,999</h3>
             </div>
 
             <ul className="space-y-3 text-gray-700 text-sm mt-6">
@@ -101,7 +101,7 @@ const customMessage = encodeURIComponent(
 
             <div className="text-center mb-6">
               <p className="line-through text-gray-200 text-lg">₹ 20,000</p>
-              <h3 className="text-3xl font-bold text-yellow-300 mt-1">₹ 8,999</h3>
+              <h3 className="text-3xl font-bold text-yellow-300 mt-1">₹ 10,000</h3>
             </div>
 
             <ul className="space-y-3 text-sm mt-6">
@@ -159,7 +159,7 @@ const customMessage = encodeURIComponent(
           
             <div className="text-center mb-6">
               <p className="line-through text-gray-400 text-lg">₹ 25,000</p>
-              <h3 className="text-3xl font-bold text-blue-700 mt-1">₹ 10,000</h3>
+              <h3 className="text-3xl font-bold text-blue-700 mt-1">₹ 15,000</h3>
             </div>
 
             <ul className="space-y-3 text-gray-700 text-sm mt-6">
