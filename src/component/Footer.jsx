@@ -32,7 +32,7 @@ const Footer = () => {
 
         {/* Company Info */}
         <div>
-          <h2 className="text-2xl font-bold mb-4">InfiWeb</h2>
+          <h2 className="text-2xl font-bold mb-4">InfiWeb Craft</h2>
           <p className="text-white/80 text-sm leading-relaxed">
             We build powerful digital experiences that help businesses grow. 
             From design to development, we deliver scalable and secure solutions.

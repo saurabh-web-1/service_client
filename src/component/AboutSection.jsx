@@ -23,7 +23,7 @@ const AboutSection = () => {
           <div className="w-full md:w-1/2 space-y-6">
 
             <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider">
-              About InfiWeb Studio
+              About InfiWeb Craft
             </p>
 
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
@@ -33,7 +33,7 @@ const AboutSection = () => {
             </h2>
 
             <p className="text-gray-600 leading-relaxed text-base md:text-lg">
-               <strong>InfiWeb Studio</strong> is a leading website development agency in
+               <strong>InfiWeb Craft</strong> is a leading website development agency in
                India specializing in modern, responsive, and high-performance web
                solutions. We help startups, small businesses, and enterprises establish a
                strong digital presence through custom websites, web applications, and
@@ -58,7 +58,7 @@ const AboutSection = () => {
               }`}
             >
               <p className="text-gray-600 leading-relaxed text-base md:text-lg mb-4">
-                At <strong>InfiWeb Studio</strong>, we believe every business deserves a
+                At <strong>InfiWeb Craft</strong>, we believe every business deserves a
   professional online identity. Our team designs visually stunning,
   SEO-friendly, secure, and lightning-fast websites that deliver exceptional
   user experiences across all devices. From business websites and portfolio
